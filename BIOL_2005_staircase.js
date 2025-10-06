@@ -410,7 +410,7 @@ function trialRoutineBegin(snapshot) {
     trialMaxDurationReached = false;
     // update component parameters for each repeat
     // Run 'Begin Routine' code from code
-    directions = [0.5, (- 0.5)];
+    directions = [3.5, (- 3.5)];
     util.shuffle(directions);
     this_direction = directions[0];
     psychoJS.experiment.addData("this_direction", this_direction);
